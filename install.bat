@@ -18,5 +18,5 @@ set "batchFileName=StartupScript.bat"
   echo %batchFileContent%
 ) > "%startupPath%\%batchFileName%"
 
-:: Run python script
+REM Run python script
 py startup.py
