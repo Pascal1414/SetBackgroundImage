@@ -4,7 +4,13 @@ An App that is intended to change the background image when the computer starts 
 
 # Install
 
-To install the app run the `install.bat` file.
+## Clone the repository
+
+Clone the repository to your computer.
+
+## Run the .bat file
+
+Run the `install.bat` file.
 
 ```cmd
 install.bat
