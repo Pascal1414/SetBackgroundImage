@@ -12,7 +12,7 @@ def download_image(url, path):
         return False
 
 # URL of the image you want to set as the background
-image_url = "https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg"
+image_url = "https://raw.githubusercontent.com/Pascal1414/SetBackgroundImage/main/background.jpg"
 
 # Local path to save the downloaded image
 image_path = "background.jpg"
