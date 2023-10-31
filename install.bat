@@ -9,7 +9,7 @@ set "startupPath=%appdataFolder%\Microsoft\Windows\Start Menu\Programs\Startup"
 REM Current path
 set "batchFilePath=%~dp0"
 
-set "batchFileContent=py %batchFilePath%startup.py"
+set "batchFileContent=py %batchFilePath%startup.pyw"
 
 REM Create the StartupScript.bat file
 set "batchFileName=StartupScript.bat"
@@ -19,4 +19,4 @@ set "batchFileName=StartupScript.bat"
 ) > "%startupPath%\%batchFileName%"
 
 REM Run python script
-py startup.py
+py startup.pyw
